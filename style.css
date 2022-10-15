@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html{
+    height: 100%;
+}
+
+.landing_container{
+    background-image: url('asset/bg/landing.webp');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing_content{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.landing_content>.container:hover{
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.img_fruits{
+    width: 80%;
+}
+
+.img_fruits_portrait{
+    width: 40%;
+}
